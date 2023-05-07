@@ -1,7 +1,7 @@
 //WAP to show diffrence between structure and union.
 #include<stdio.h>
 #include<string.h>
-/*struct structure
+struct structure
 {
 	//variable known as data member was define inside the body
     int id;
