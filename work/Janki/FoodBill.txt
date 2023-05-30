@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BILL</title>
+	<style>
+	   table , th, td{
+	                border:1px solid pink;
+			}
+</style>
+</head>
+<body style="color: light pink">
+	<table border="6px">
+	<caption  style="color:red"><b><u><h4>Food bill</h4></u></b></caption>
+<tr style="color:navy">
+        <th><b>No</b></th>
+   	<th>Verity</th>
+   	<th>Quantity</th>
+   	<th>Price</th>
+   	<th>Total price</th>
+</tr>
+<tr style="color:brown">
+	<td>1</td>
+	<td>Paneer butter masala</td>
+	<td>1</td>
+	<td>190</td>
+	<td>190</td>
+</tr>
+<tr style="color:brown">
+	<td>2</td>
+	<td>butter roti</td>
+	<td>5</td>
+	<td>30</td>
+	<td>150</td>
+</tr>
+<tr style="color:brown">
+	<td>3</td>
+	<td>Masala papad</td>
+	<td>2</td>
+	<td>20</td>
+	<td>40</td>
+</tr>
+<tr style="color:brown">
+	<td>4</td>
+	<td>Buttermilk</td>
+	<td>2</td>
+	<td>15</td>
+	<td>30</td>
+</tr>
+<tr style="color:red">
+	<td colspan="4">Total Amount:</td>
+	<td>410/-</td>
+</tr>
+</table>
+</body>
+</html>
