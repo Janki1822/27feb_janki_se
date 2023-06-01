@@ -4,11 +4,11 @@
 
 #include<iostream>
 using namespace std;
-class Student
+class Student 
 {
 	public:
-		int rollno;
-		Student()
+		int rollno; 
+		Student() 
 		{
 			
 			cout<<endl<<"The student roll no is:";
@@ -28,12 +28,12 @@ class Test : public Student
 			cout<<endl<<"Hindi subject mark is:";
 			cin>>mark2;
 			
-			totalmarks=mark1+mark2; 
+			totalmarks=mark1+mark2;  // Sum of Two subject marks.
 			cout<<endl<<"Total marks of two subject is:"<<totalmarks;
 			
 		}
 };
-class Result : public Test
+class Result : public Test // Class result is derived from class student and class test.
 {
 	public:
 		Result()
@@ -46,6 +46,6 @@ class Result : public Test
 };
 int main()
 {
-	Result r1;
+	Result r1; //Object of derived class result.
 	return 0;
 }
