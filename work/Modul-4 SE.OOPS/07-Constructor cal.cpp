@@ -1,3 +1,5 @@
+//WAP of Addition, Subtraction, Division, Multiplication using constructor.
+
 #include<iostream>
 using namespace std;
 class cal // Define class as a cal.
@@ -5,7 +7,7 @@ class cal // Define class as a cal.
 	public :
 		int no1, no2;
 		
-		cal ()//Difine class cal
+		cal ()//Define class cal
 		{
 			cout<<"\nvalue of no1 :";
 			cin>>no1;
@@ -42,39 +44,16 @@ class Div : public cal//For the Division of 2 number value
 	public:
 		Div()
 		{
-			cout<<"\nDivision is:"<<(float)no1/ (float)no2<<endl;// For the division value here use float type..
+			cout<<"\nDivision is:"<<(float)no1/ (float)no2<<endl;// For the Division value I use float datatype.
 		}
 };
 int main()
 {
-	int ch = 1;// variable for store the value and run the program
-   	switch (ch) // Get value using switch case output
-	{
-		case 1:
-			 Add a1; // Value of addition with object
-			break;	
-	}
+ 	Add a1; // Object of class Addition.
+	Sub s1; //Object of class Sudtraction.
+        Multi m1; // Object of class Multiplication.
+	Div d1; //Object of class Division.
 	
-	switch (ch)
-	{
-		case 1:
-			 Sub s1;
-			break;	
-	}
-	
-	switch (ch)
-	{
-		case 1:
-			 Multi m1;
-			break;	
-	}
-	
-	switch (ch)
-	{
-		case 1:
-			 Div d1;
-			break;	
-	}
 	
 	return 0;
 }
