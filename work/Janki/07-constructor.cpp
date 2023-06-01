@@ -1,3 +1,5 @@
+//WAP of Addition, Subtraction,Multiplication,Division using constructor.
+
 #include<iostream>
 using namespace std; // 
 class cal // Define class as a cal.
