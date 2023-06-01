@@ -1,11 +1,11 @@
 #include<iostream>
-using namespace std;
+using namespace std; // 
 class cal // Define class as a cal.
 {
 	public :
 		int no1, no2;
 		
-		cal ()//Difine class cal
+		cal () //Define class cal
 		{
 			cout<<"\nvalue of no1 :";
 			cin>>no1;
@@ -42,18 +42,18 @@ class Div : public cal//For the Division of 2 number value
 	public:
 		Div()
 		{
-			cout<<"\nDivision is:"<<(float)no1/ (float)no2<<endl;// For the division value here use float type..
+			cout<<"\nDivision is:"<<(float)no1/ (float)no2<<endl;// For the division here I use float type value.
 		}
 };
 int main()
 {
-			 Add a1; // Value of addition with object
+	Add a1; // Object of class Addition.
 
-			 Sub s1;
+	Sub s1; // Object of class Subtraction.
 
-			 Multi m1;
-:
-			 Div d1;
+	Multi m1; //Object of class Multiplication.
+
+	Div d1; // Object of class Division.
 
 	
 	return 0;
