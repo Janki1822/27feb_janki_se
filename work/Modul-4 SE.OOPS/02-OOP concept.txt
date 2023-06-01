@@ -1,7 +1,9 @@
 //What is OOP? List OOP concepts.
+
 1.What is OOP?
-{
-	Ans:-
+______________
+
+Ans:-
    -> OOP is Object Oriented Program.
    -> OOP use in java , python, c++ like programing.
    -> In the language OOP is class based program.
@@ -9,17 +11,59 @@
    -> Most language designed mainly used by OOP. (ex:- Java)
    -> Java programing have best security in their programm bcz they used oop concepts for their code and data.
    -> Inshort the Object - Oriented Programming is models of softwear design Data or Object rather than Function and logic.
-}
+______________________________________________________________________________________________________________________________
 
 2.List of the OOP concept:-
+___________________________
 
-{
 	Ans:-
+	
 	   There are 6 concept in OOP:
-	   1. Class
-	   2. Object
-	   3. Inheritance
-	   4. Abstraction
-	   5. Encapsulation
-	   6. Polymorphism	
-}
+	   ____________________________
+	   
+	   1. Class - Class use for user-define data in OOP. its holds it own data member and function. 
+	   	      class is a blueprint for an object.
+		      class syntax:-
+		      class class_name
+		       {
+				//body of class
+		       }
+	   _______________________________________________________________________________________________________________________
+	   
+	   2. Object - It define to created class members run when accessed through the object. Object occupie the memory.
+	   		object syntax:-
+			class class_name
+			{
+				//code;
+			};
+			int main()
+			{
+				class_name object_name;
+			}
+	  ____________________________________________________________________________________________________________________________		
+	  
+	  3. Inheritance - Inheritance is reuseable of class. Inheritance work like a new class are created from the exiting class.
+	  		   for ex:- Creat one class person and also i created another class in the program for inherit the class object.
+			           class peron (Its called class PARENT)
+				   {
+				   	//code
+				   }
+				   class student (Its called class CHILD)
+				   {
+				   	//body of student
+				   }
+	 ______________________________________________________________________________________________________________________________			   
+				   
+	   4. Abstraction - Abstraction only show the important and necessary detail to user and hide other background detail.
+	   		    fro ex:- ATM , Vehicle operation.
+     	 ______________________________________________________________________________________________________________________________  			    
+	   5. Encapsulation - Encapsulation is wrapping the similar code at a on place. we have bundle of data member in single class.
+			      for ex:- school bag- we keep bookes ,lunch box, waterbottle, compasbox etc in the one bag.
+	 _________________________________________________________________________________________________________________________________
+	
+	   6. Polymorphism - It is define like having one name in so many form. like to many msgs from the one person.
+	   		     for ex:- the girl who have one name but in so many form. like at one time she is daugther, mom, wife,
+			              grandmom , a employee at the same time. 
+		  	   - Polymorphism work like the ex. one data name in so amny form it work.
+			     
+
