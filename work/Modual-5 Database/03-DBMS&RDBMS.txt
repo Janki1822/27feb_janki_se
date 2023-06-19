@@ -1,0 +1,17 @@
+What is the differnce between DBMS and RDBMS?
+ANS:-
+    DBMS:-
+        -> DBMS is stand for database managemnet system.
+        -> DBMS stored the data as a file.
+        -> It is designed to handle small amount of data.
+        -> It is provide support only for single user at a time.
+        -> Normalization is not available for dbms. 
+        ->ex:- Microsoft Access , libre office, dBASE.
+
+    RDBMS:-
+         -> RDBMS is stand for Relational database management system.
+         -> RDBMS stored the data as a table form.
+         -> RDBMS is designed to handle all the large amount data in databse.
+         -> RDBMS is provide supportfor multiple users at a time.
+         -> Normalilzation is available in the data.
+         -> ex:- MySQL, Oracle etc.

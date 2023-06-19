@@ -1,0 +1,31 @@
+What is DML compiler in SQL?
+-> ANS:-
+        -> DML is a DATA MANIPLULATION LANGUAGE.
+        -> DML compiler is a computer programming language that used for Add (Insert), delete and update the data in a database.
+        -> Their is for type of DML query which execute the DMLcompiler easily:-
+
+        1. Insert data:-
+             -> DML support to insert the data in created table.
+             syntax:-
+                INSERT INTO 'student'('column_name1', column_nmae2','column_name3','column_name4') VALUES 
+                ('[value-1]','[value-2]','[value-3]','[value-4]')
+
+        2. Delete :-
+             -> using for delet data in the table.
+             syntax:-
+                    DELETE FROM 'table_name';
+        
+        3. Delete specific record :-
+             -> Delet some specify record in the table to secure the table.
+             syntax:-
+                    DELETE FROM 'table_name' WHERE condition.
+        
+        4. Truncate :-
+             -> delete the all records. 
+             syntax:-
+                    TRUNCATE TABLE 'table_name';
+        
+        5. Delete column :-
+             -> Delete the column in the table.
+             syntax:-
+                    delete column 'column_name' WHERE = condition;

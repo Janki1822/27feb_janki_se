@@ -1,0 +1,17 @@
+-> What is trigger and how to creat a Trigger in sql?
+    -> ANS:-
+        -> Trigger is a database object which fires when an event occurs in a database.
+        -> For ex:-
+                    Trigger can be set on a record insert in a database.
+
+
+        -> TARIGGER SYNTAX:-
+                        ->DELIMITER $$
+                            
+                            CREAT TRIGGER 'TRIGGER_NAME' (AFTER | BEFORE) {INSERT | UPDATE | DELETE} ON 'table_name' FRO EACH ROW.
+
+                         BEGIN
+                        
+                            INSERT INTO 'table_name' SET 'column_name = new.coloumn_name | old.column_name;
+                        
+                         END$$

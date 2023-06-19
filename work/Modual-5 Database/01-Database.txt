@@ -1,0 +1,29 @@
+-> What do you understand by Database?
+   ANS:-
+  ->  DBMS - Database Managment System.
+  ->  DBMS is an organaized collection of data, so that it can be easily accessed and manage.
+  ->  Kind of dtabase is inter-related data which store and retrive the set of program data value.
+  ->  DBMS also store the data for easily accessed .
+  ->  I uderstand by the Dbms is a langauge & Also it work like store the all file value and exite the same data in the storage.
+      if data is important and storeage automatically store in it and we can retrive the data .
+      for ex:- we have a school register and we have same name in the register in two time so DBMS work like the two same name
+      person value store in the data . If the same value data delet by mistack we can retrive it in the storage.
+  ->  DBMS database - Mysql, Oracle, dBASE, Microsoft Access etc.
+  ->  Database system devloped for large amount of data . Dealing with huge amount data so, ther are two thing optimization:
+      1. Storage of data - Database store the lots of duplicate data . it can be remove before storage.
+      2. Retrive of data - Databse storing the duplicated data and deleted in the storage , it is important data we can retrive
+                           the all data in the storage. (as i say before in school register example.)
+  
+  
+  -> SQL:-
+
+      -> SQL is structure query language.
+      -> SQL is langauge of the database. it creat database structure(creation), modify the rows, deletation, feching rows etc.
+      -> SQL is the standerd language for Relational databaase, like MySQL, Oracle etc.
+      -> SQL allow the user's to access the data and describe the data.
+      -> SQL allow to creat the database and drop database and tables.
+      -> SQL allow to solve query and creat the database. it benifite for the bussiness use's to store their record in max values. 
+      -> Allow to insert data , store the procedure data , users set their permission in the data.
+      -> SQL execute the queries of database , retrive the data from database, insert the new record in database.
+      -> we can delet the query in the database, also can delet the non useble data in the database.
+      -> It easy to learn and hoew we store the all value by the database.    

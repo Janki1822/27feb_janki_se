@@ -1,0 +1,57 @@
+Whta is DDL Interpreter?
+ANS:-
+    -> DDL - Data Definition Language
+    -> DDL is definition statement like creat database, creat table , use database, desc is show the table structure,
+       drop table, drop database etc.
+    -> DDL is language for describing data and its relatioship in database.
+    -> DDL is the defination of data dictionary.
+
+    DDL all query syntax:-
+
+        1. Creat database:-
+            -> creat database database_name
+
+        2. Creat table:-
+            -> CREAT TABLE 'Table_name'
+            (
+                'coloumn_name1' datatype(size),
+                'coloumn_nmae2' datatype(size),
+                'coloumn_name3' datatype(size)
+            )
+
+        3. Use database:-
+            -> USE 'databse_name'
+
+        4. Desc:-
+            -> For show the all table_name.
+              DESC 'student' // table name
+
+        5. Drop table:-
+            -> For delete the table.
+              DROP DATABASE 'database_name';
+
+        6. Drop database:-
+            -> Drop the database.
+              DROP DATABASE 'database_name';
+        
+        7. Add Primary using alter:-
+            -> Primary key using for specific choice of a set of attributes that uniquely specifY the Id.
+              ALTER TABLE table_name ADD PRIMARY KEY ('coloumn_name');
+        
+        8. Add unique key:-
+            -> ALTER TABLE table_name ADD UNIQUE KEY ('coloumn_name');
+
+        9. Add coloumn after creating a table:-
+            -> Add the column in created table.
+               ALTER TABLE 'table_name' ADD 'coloumn_name' data_type (size) AFTER| BEFORE 'coloumn_name'
+
+        10. Add Auto_Increment:-
+            -> Auto increment is alow a unique number to be generate automatatically when a new record is inserted into a table.
+              ALTER TABLE 'student' CHANGE 'old_coloumn_name' 'new_coloumn_name' data_type (size) AUTO_INCREMENT;
+
+        11. Add foriegn key:-
+            -> ALTER TABLE 'table_name' ADD FOREIGN KEY ('coloumn_name') REFERENCES 'reference_table_name' ('coloumn_name');
+
+        12. Update data:- 
+            -> use when add some data or do some changes in table added data . that time we update the data.
+            -> UPDATE 'table_name' set 'coloumn_name' = 'value' WHERE 'coloumn_name' BETWEEN 'value' AND 'value';

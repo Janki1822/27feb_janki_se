@@ -1,0 +1,17 @@
+-> What is SQL Key Constraints ?  writing an Example of SQL Key Constraints.
+    -> ANS:-
+         -> Their is the 4 key we use in the SQL.
+         -> primaer key , Forieng key, Not-null, Unique key their four keys mostly se in the SQL database.
+
+         1. Primary key:-
+              -> Primary key use when we input the data and if we enter duplicate data primary key dosen't allow the duplicate data in 
+                 sql and also we don't enter the data in table that primary key dont alloe null value in the table column. 
+              -> Primary key apply only one column in once the table .
+
+         2. Unique key:-
+              -> Unique key constraint to restrict  the insert duplicate value on a column . its also allow the we don't insert bthe data
+                 in table the unique key show  the null value.
+              -> Unique key apply and define in multiple column in the table.
+
+         3. Forieng key:-
+              ->     
